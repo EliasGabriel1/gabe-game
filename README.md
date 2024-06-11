@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Sobre o código:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+data: 11/06/2024 17:00
 
-## Available Scripts
+## Jogo de Sequência Interativo
 
-In the project directory, you can run:
+Este é um projeto simples de um jogo de sequência interativo desenvolvido em TypeScript e React. O objetivo do jogo é seguir uma sequência aleatória de teclas o mais rápido possível.
 
-### `npm start`
+### Funcionalidades Principais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Rotas Configuradas**: O projeto possui algumas rotas configuradas para demonstrar sua escalabilidade, incluindo uma tela de login, uma tela inicial (home), uma página de exemplo de produto e uma página de erro 404.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Provider de Login**: Implementado um contexto de login para gerenciar o estado de autenticação do usuário em toda a aplicação.
 
-### `npm test`
+- **Tela de Login Personalizada**: Para tornar o projeto mais atraente, foi desenvolvida uma tela de login com um fundo personalizado que inclui o nome de usuário.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Jogo de Sequência Simples**: O jogo consiste em pressionar as teclas corretas em uma sequência específica. As teclas disponíveis são 'A', 'S', 'D', 'F', 'J', 'K' e 'L', mas podem ser adicionadas mais. O jogo também inclui um contador de tempo para desafiar os jogadores a serem rápidos.
 
-### `npm run build`
+### Como Jogar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Ao iniciar o jogo, será exibida uma sequência aleatória de teclas.
+2. O jogador deve pressionar as teclas na mesma ordem apresentada o mais rápido possível.
+3. Se o jogador acertar a sequência corretamente, receberá uma mensagem de sucesso.
+4. Se o jogador errar, receberá uma mensagem de erro e poderá tentar novamente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Como Executar o Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório para sua máquina local.
+2. Navegue até o diretório do projeto e execute `yarn install` para instalar as dependências.
+3. Execute `yarn start` para iniciar o servidor de desenvolvimento.
+4. Abra seu navegador e acesse `http://localhost:3000` para jogar o jogo.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Espero que goste do jogo! 😊

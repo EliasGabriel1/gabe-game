@@ -1,0 +1,78 @@
+.container-overlay {
+  background: #00000066;
+  height: 100%;
+  width: 100%;
+  padding-top: 35vh;
+}
+
+.container-game {
+  position: fixed;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  display: block;
+}
+
+.container-content {
+  background-color: black;
+  width: fit-content;
+  margin: 0 auto;
+  color: white;
+  padding: 25px;
+  border-radius: 4px;
+  min-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.container-content h1{
+  margin-top: 10px;
+}
+
+.container-content svg{
+  position: absolute;
+  top: -35px;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+.container-button button {
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+}
+
+.sequence-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sequence-container .sequence-item {
+  margin-right: 10px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: default;
+  pointer-events: none;
+}
+
+.sequence-container .sequence-item:not(.incorrect):not(.correct){
+  border: 1px solid white;
+}
+
+.sequence-container .sequence-item.incorrect {
+  background-color: red;
+}
+
+.sequence-container .sequence-item.correct {
+  background-color: green;
+}

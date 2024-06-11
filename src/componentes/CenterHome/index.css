@@ -1,0 +1,9 @@
+.CenterHome{
+  background: #00000066;
+  border-radius: 4px;
+  height: 100%;
+}
+
+.CenterHome--content{
+  padding: 24px;
+}
